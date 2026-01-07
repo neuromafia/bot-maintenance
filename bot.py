@@ -11,6 +11,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(func=lambda message: message.chat.type == 'private')
 def echo_all(message):
-    bot.reply_to(message, "This bot is under maintenance.\nIf you need help with PoliNetwork's materials, contact @toto04_1 or @lorenzocorallo")
+    bot.reply_to(message, "🕯 Город засыпает...\nNeuroMafia временно ушла в тень.\nМы проводим технические работы. Совсем скоро город снова проснётся — следите за новостями.\nЧтобы пообщаться с другими участниками и узнать новости клуба, заходи в наш чат [t.me/neuro_mafia_spb](t.me/neuro_mafia_spb) 💬")
 
 bot.infinity_polling()
